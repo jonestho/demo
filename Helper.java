@@ -1,5 +1,9 @@
 public class Helper {
     public static void display(String msg){
-        System.out.println(msg);
+        if(msg == null || msg.trim().equals("")){
+            System.out.println("No message to display");
+        }else {
+            System.out.println(msg);
+        }
     }
 }
