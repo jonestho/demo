@@ -1,5 +1,5 @@
 public class Bye {
     public static void main(String[] args){
-        System.out.println("Bye World!");
+        Helper.display("Bye World!");
     }
 }
